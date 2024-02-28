@@ -1,13 +1,123 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  background: transparent !important;
+  border: none !important;
+}
+
+.home {
+  padding-top: 100px;
+  height: 100vh;
+  display: flex;
+  gap: 50px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search-wrapper {
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  padding: 50px;
+  width: 900px;
+}
+
+.search {
+  display: flex;
+  justify-content: space-around;
+}
+
+input {
+  border-radius: 50px;
+  padding: 0 10px;
+}
+
+.search .btn {
+  background-color: red;
+  border-radius: 50px;
+  color: white;
+}
+
+.search .btn:hover {
+  background-color: red;
+  color: white;
+}
+
+.btn-save,
+.btn-sort {
+  background-color: red;
+  border-radius: 50px;
+  color: white;
+  border: none;
+  padding: 5px;
+}
+
+.btn-sort {
+  height: fit-content;
+  margin: 10px;
+}
+
+.view-wrapper,
+.list-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list {
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  padding: 10px;
+  width: 900px;
+}
+
+.table .table-headings {
+  display: grid;
+  grid-template-columns: 2fr 2fr 5fr 2fr 1fr;
+  background-color: rgb(201, 201, 201) !important;
+}
+
+.heading {
+  margin-bottom: 20px;
+}
+
+.items {
+}
+
+.item {
+  display: grid;
+  grid-template-columns: 2fr 2fr 5fr 2fr 1fr;
+  align-items: center;
+  /* border-bottom: 1px solid gray; */
+  border-radius: 10px;
+  padding: 0px 10px;
+  cursor: pointer;
+}
+
+.item:hover {
+  background-color: rgb(255, 189, 189) !important;
+  color: white !important;
+}
+
+.item img {
+  height: 40px;
+}
+
+hr {
+  margin: 0 !important;
 }
