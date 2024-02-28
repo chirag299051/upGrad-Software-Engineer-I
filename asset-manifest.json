@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/upGrad-Software-Engineer-I/static/css/main.359705f0.css",
+    "main.js": "/upGrad-Software-Engineer-I/static/js/main.35c15ad5.js",
+    "index.html": "/upGrad-Software-Engineer-I/index.html",
+    "main.359705f0.css.map": "/upGrad-Software-Engineer-I/static/css/main.359705f0.css.map",
+    "main.35c15ad5.js.map": "/upGrad-Software-Engineer-I/static/js/main.35c15ad5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.359705f0.css",
+    "static/js/main.35c15ad5.js"
+  ]
+}
